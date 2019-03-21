@@ -11,6 +11,7 @@ body {
     color: #353535;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .hed2 {
@@ -141,7 +142,8 @@ header {
             -moz-transition: all linear .3s;
             -ms-transition: all linear .3s;
             -o-transition: all linear .3s;
-            &:hover{
+
+            &:hover {
                 background-color: #0872b9;
                 border-color: #0872b9;
             }
@@ -152,7 +154,46 @@ header {
 // <!-- banner end -->
 
 // <!-- about start -->
-.about {}
+.about {
+    padding-top: 60px;
+
+
+    .about-content {
+        &:last-child {
+            p {
+                margin-bottom: 35px;
+            }
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 24px;
+            color: #555555;
+            font-family: 'Open Sans', sans-serif;
+
+            // font-weight: 400;
+            &:first-of-type {
+                margin-top: 44px;
+            }
+
+        }
+
+        .about-head {
+            margin-bottom: 38px;
+            text-align: center;
+
+
+            h1 {}
+
+            img {
+                margin-left: -35px;
+                margin-top: -9px;
+            }
+        }
+    }
+
+
+}
 
 // <!-- about end -->
 

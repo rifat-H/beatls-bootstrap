@@ -2,16 +2,35 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
+    // <!-- about start -->
+    .about {
+
+        .about-content {
+            p {
+                text-align: center;
+            }
+
+            .about-head {
+                margin-top: 20px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    // <!-- about end -->
+
     // <!-- banner start -->
 
     .banner {
         .banner-content {
             text-align: center;
 
-            h2{
+            h2 {
                 font-size: 28px;
             }
-            h1{
+
+            h1 {
                 font-size: 35px;
             }
 
@@ -24,15 +43,17 @@
     // <!-- banner end -->
 
     // topbar start
-    .topbar{
-        p{
+    .topbar {
+        p {
             text-align: center;
             margin-bottom: 10px;
         }
-        ul{
+
+        ul {
             justify-content: center !important;
         }
     }
+
     // topbar end
 
     // navbar start
@@ -49,6 +70,23 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    // <!-- about start -->
+    .about {
+
+        .about-content {
+            p {
+                text-align: center;
+            }
+
+            .about-head {
+                margin-top: 20px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    // <!-- about end -->
 
     // <!-- banner start -->
 
@@ -56,10 +94,11 @@
         .banner-content {
             text-align: center;
 
-            h2{
+            h2 {
                 font-size: 28px;
             }
-            h1{
+
+            h1 {
                 font-size: 35px;
             }
 
