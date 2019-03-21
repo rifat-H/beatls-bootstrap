@@ -161,7 +161,7 @@ header {
     .about-content {
         &:last-child {
             p {
-                margin-bottom: 35px;
+                margin-bottom: 26px;
             }
         }
 
@@ -198,7 +198,98 @@ header {
 // <!-- about end -->
 
 // <!-- services start -->
-.services {}
+.services {
+    padding-top: 60px;
+
+    .services-head {
+        margin-bottom: 27px;
+
+        img {
+            margin-left: -73px;
+            margin-top: -9px;
+        }
+    }
+
+    .service-item {
+        transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+
+        &:hover {
+            box-shadow: 0 0 15px #353535;
+
+            .content-head {
+                background-color: #5bc5f4;
+            }
+            .inner {
+                background-color: #5bc5f4 !important;
+            }
+        }
+
+
+        .content-head {
+            margin: 0 auto;
+            background-color: #f1f1f1;
+            height: 85px;
+            width: 85px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border: 5px solid #fff;
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            z-index: 10;
+            transform: translate(-50%);
+            -webkit-transform: translate(-50%);
+            -moz-transform: translate(-50%);
+            -ms-transform: translate(-50%);
+            -o-transform: translate(-50%);
+
+            .inner {
+                // margin: 0 auto;
+                background-color: #f1f1f1;
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border: 3px solid #fff;
+                margin: 2px auto;
+
+                img {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .service-content {
+            background-color: #f1f1f1;
+            padding: 0 21px;
+
+            h1 {
+                margin-bottom: 20px;
+                padding-top: 50px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 24px;
+                color: #555555;
+                font-family: 'Open Sans', sans-serif;
+                text-align: center;
+                padding-bottom: 21px;
+            }
+        }
+    }
+
+}
 
 // <!-- services end -->
 
