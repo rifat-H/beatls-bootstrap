@@ -43,6 +43,11 @@ header {
                     color: #e7e7e7;
                     font-size: 14px;
                     margin-left: 10px;
+                    transition: all linear .3s;
+                    -webkit-transition: all linear .3s;
+                    -moz-transition: all linear .3s;
+                    -ms-transition: all linear .3s;
+                    -o-transition: all linear .3s;
 
                     &:hover {
                         color: #353535;
@@ -83,9 +88,65 @@ header {
 // header end
 
 // <!-- banner start -->
+
 .banner {
     padding: 86px 0;
     background: url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .banner-content {
+        text-align: right;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+
+        h2 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            margin-top: 14px;
+            font-size: 40px;
+            color: #ffffff;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            border: 1px solid white;
+            margin-left: 20px;
+            transition: all linear .3s;
+            -webkit-transition: all linear .3s;
+            -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+            -o-transition: all linear .3s;
+            &:hover{
+                background-color: #0872b9;
+                border-color: #0872b9;
+            }
+        }
+    }
 }
 
 // <!-- banner end -->
