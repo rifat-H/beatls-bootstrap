@@ -28,12 +28,54 @@ body {
 header {
 
     // topbar start
-    .topbar {}
+    .topbar {
+        padding: 10px 0;
+        background-color: #0872b9;
+
+        p {
+            font-size: 14px;
+            color: #e7e7e7;
+        }
+
+        ul {
+            li {
+                a {
+                    color: #e7e7e7;
+                    font-size: 14px;
+                    margin-left: 10px;
+
+                    &:hover {
+                        color: #353535;
+                    }
+                }
+            }
+        }
+    }
 
     // topbar end
 
     // navbar start
-    .navbar {}
+    nav {
+        padding: 20px 0 !important;
+
+        ul {
+            li {
+                a {
+                    font-size: 14px !important;
+                    // line-height: 24px;
+                    color: #353535 !important;
+
+                    &:hover {
+                        color: #0872b9 !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: #0872b9 !important;
+    }
 
     // navbar end
 }
@@ -41,7 +83,10 @@ header {
 // header end
 
 // <!-- banner start -->
-.banner {}
+.banner {
+    padding: 86px 0;
+    background: url(../images/banner.jpg);
+}
 
 // <!-- banner end -->
 
