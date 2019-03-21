@@ -1,10 +1,81 @@
 // common css start
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.hed {
+    font-size: 24px;
+    line-height: 24px;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.hed2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+
 // common css end
 
 // header start
-header{}
+header {
+
+    // topbar start
+    .topbar {}
+
+    // topbar end
+
+    // navbar start
+    .navbar {}
+
+    // navbar end
+}
+
 // header end
 
+// <!-- banner start -->
+.banner {}
+
+// <!-- banner end -->
+
+// <!-- about start -->
+.about {}
+
+// <!-- about end -->
+
+// <!-- services start -->
+.services {}
+
+// <!-- services end -->
+
+// <!-- portfolio start -->
+.portfolio {}
+
+// <!-- portfolio end -->
+
+// <!-- team start -->
+.team {}
+
+// <!-- team end -->
+
+// <!-- testimonial start -->
+.testimonial {}
+
+// <!-- testimonial end -->
+
+// <!-- info start -->
+.info {}
+
+// <!-- info end -->
+
 // footer start
-footer{}
+footer {}
+
 // footer end
