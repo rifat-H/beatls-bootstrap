@@ -3,6 +3,16 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // testimonial start
+    .testimonial {
+        .testimonial-item {
+            .item-content {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    // testimonial end
+
     // <!-- about start -->
     .about {
 
@@ -70,6 +80,16 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    // testimonial start
+    .testimonial {
+        .testimonial-item {
+            .item-content {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    // testimonial end
     
     // <!-- about start -->
     .about {
