@@ -122,7 +122,6 @@ header {
             font-size: 13px;
             line-height: 24px;
             color: #ffffff;
-            font-family: 'Open Sans', sans-serif;
             margin-bottom: 30px;
         }
 
@@ -169,7 +168,7 @@ header {
             font-size: 13px;
             line-height: 24px;
             color: #555555;
-            font-family: 'Open Sans', sans-serif;
+            // font-family: 'Open Sans', sans-serif;
 
             // font-weight: 400;
             &:first-of-type {
@@ -284,7 +283,7 @@ header {
                 font-size: 13px;
                 line-height: 24px;
                 color: #555555;
-                font-family: 'Open Sans', sans-serif;
+                // font-family: 'Open Sans', sans-serif;
                 text-align: center;
                 padding-bottom: 21px;
             }
@@ -341,9 +340,10 @@ header {
                 transition: all linear .3s;
 
                 .bg {
-                    height: 40px;
-                    width: 40px;
+                    height: 45px;
+                    width: 45px;
                     background-color: #5bc5f4;
+                    color: #fff;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -471,10 +471,11 @@ header {
 
         .item-content {
             position: relative;
+
             .item-arrow {
                 position: absolute;
                 top: -16px;
-                right:50%;
+                right: 50%;
                 transform: translate(50%);
                 width: 0;
                 height: 0;
@@ -514,7 +515,111 @@ header {
 // <!-- testimonial end -->
 
 // <!-- info start -->
-.info {}
+.info {
+    padding: 20px 0;
+    background-color: #353535;
+
+    .part-1 {
+        img {}
+
+
+        p {
+            font-size: 13px;
+            line-height: 24px;
+            color: #f1f1f1;
+            // font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+
+            &:first-of-type {
+                margin-top: 30px;
+            }
+
+            &:last-of-type {
+                margin-top: 35px;
+            }
+        }
+    }
+
+    .part-2 {
+        h1 {
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            margin-bottom: 27px;
+
+        }
+
+        .contact-icon {
+            ul {
+                li {
+                    height: 40px;
+                    width: 40px;
+                    background-color: #5bc5f4;
+                    color: white;
+                    border-radius: 50%;
+                    // margin: 35px 0;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: auto;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .contact-content {
+            p {
+                font-size: 13px;
+                line-height: 24px;
+                color: #f1f1f1;
+                margin-top: 12px;
+            }
+        }
+    }
+
+    .part-3 {
+        h1 {
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        ul {
+            // margin-top: 20px;
+            li {
+                margin-top: 28px;
+                a {
+                    font-size: 13px;
+                    line-height: 36px;
+                    color: #ffffff;
+                    &:hover{
+                        color: #5bc5f4;
+                    }
+                }
+            }
+        }
+    }
+
+    .part-4 {
+        h1{
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: 'Oswald', sans-serif;
+            margin-bottom: 15px;
+        }
+
+        img{
+            margin-top: 18px;
+        }
+    }
+}
 
 // <!-- info end -->
 
