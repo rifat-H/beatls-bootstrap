@@ -200,6 +200,7 @@ header {
 // <!-- services start -->
 .services {
     padding-top: 60px;
+    // padding-bottom: 60px;
 
     .services-head {
         margin-bottom: 27px;
@@ -223,6 +224,7 @@ header {
             .content-head {
                 background-color: #5bc5f4;
             }
+
             .inner {
                 background-color: #5bc5f4 !important;
             }
@@ -294,7 +296,67 @@ header {
 // <!-- services end -->
 
 // <!-- portfolio start -->
-.portfolio {}
+.portfolio {
+    padding: 20px 0;
+
+    .services-head {
+        padding-bottom: 30px;
+
+        h1 {}
+
+        img {
+            margin-left: -85px;
+            margin-top: -9px;
+        }
+    }
+
+    .port-wrapper {
+        .box {
+            position: relative;
+
+            &:hover {
+                .overlay {
+                    opacity: 1;
+                    width: 100%;
+                }
+            }
+
+            img {
+                z-index: -1;
+
+            }
+
+            .overlay {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 0%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, .6);
+                z-index: 1;
+                position: absolute;
+                top: 0;
+                right: 0;
+                opacity: 0;
+                transition: all linear .3s;
+
+                .bg {
+                    height: 40px;
+                    width: 40px;
+                    background-color: #5bc5f4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+
+                    i {}
+                }
+
+            }
+        }
+    }
+
+}
 
 // <!-- portfolio end -->
 
