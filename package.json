@@ -22,7 +22,7 @@
     "animatescroll.js": "^1.0.7",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
+    "popper.js": "^1.14.7"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
