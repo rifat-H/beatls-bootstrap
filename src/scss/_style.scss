@@ -60,33 +60,35 @@ header {
 
     // topbar end
 
-    // navbar start
-    nav {
-        padding: 20px 0 !important;
 
-        ul {
-            li {
-                a {
-                    font-size: 14px !important;
-                    // line-height: 24px;
-                    color: #353535 !important;
+}
 
-                    &:hover {
-                        color: #0872b9 !important;
-                    }
+// header end
+
+// navbar start
+nav {
+    padding: 20px 0 !important;
+
+    ul {
+        li {
+            a {
+                font-size: 14px !important;
+                // line-height: 24px;
+                color: #353535 !important;
+
+                &:hover {
+                    color: #0872b9 !important;
                 }
             }
         }
     }
-
-    .navbar-light .navbar-nav .active>.nav-link {
-        color: #0872b9 !important;
-    }
-
-    // navbar end
 }
 
-// header end
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #0872b9 !important;
+}
+
+// navbar end
 
 // <!-- banner start -->
 
@@ -637,7 +639,8 @@ footer {
         line-height: 24px;
         color: #f1f1f1;
     }
-    span{
+
+    span {
         color: #5bc5f4;
     }
 }
