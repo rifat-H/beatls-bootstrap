@@ -2,7 +2,6 @@ import "../scss/bundle.scss";
 
 window.$ = window.jQuery = require('jquery');
 require('animatescroll.js');
-require('./plugins/Scrollspy-master/scrollspy.min');
 require('popper.js');
 require('bootstrap');
 require('@fortawesome/fontawesome-free/js/all');
@@ -11,6 +10,8 @@ require('@fortawesome/fontawesome-free/js/all');
 
 
 $(function () {
+
+    // scrollspy
 
     // take this in css
     $('.one').hover(function () {
