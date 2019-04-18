@@ -10,7 +10,6 @@ require('@fortawesome/fontawesome-free/js/all');
 
 $(function () {
 
-
     // take this in css
     $('.one').hover(function () {
         $('.box-footer .one').css("color", "#5bc5f4");
