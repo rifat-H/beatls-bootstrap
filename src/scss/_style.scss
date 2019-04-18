@@ -414,6 +414,11 @@ nav {
                     width: 38px;
                     border-radius: 50%;
 
+                    &:hover{
+                        background-color: #5BC5F4;
+                        border-color: #5BC5F4;
+                    }
+
                     a {
                         display: flex;
                         justify-content: center;
